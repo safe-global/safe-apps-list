@@ -1,0 +1,121 @@
+{
+    "name": "Gnosis Safe default app list",
+    "logoUri": "logo-uri",
+    "keywords": "gnosis safe default app list",
+    "timestamp": "1617203893072",
+    "version": {
+        "major": "0",
+        "minor": "1",
+        "patch": "0"
+    },
+    "apps": [
+        {
+            "networks": [1],
+            "name": "1inch",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Aave",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Balancer Exchange",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Balancer Pool",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf",
+            "version": ""
+        },
+        {
+            "networks": [4, 100],
+            "name": "Gnosis Protocol Custom Market Maker",
+            "url": "https://safe-cmm.gnosis.io",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Compound",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "dHedge",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Idle",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Lido Finance",
+            "url": "https://cloudflare-ipfs.com/ipfs/Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Mushrooms finance",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Pooltogether",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Request",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Sablier",
+            "url": "https://cloudflare-ipfs.com/ipfs/Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Synthetix",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA",
+            "version": ""
+        },
+        {
+            "networks": [1, 4],
+            "name": "Open Zeppelin",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA",
+            "version": ""
+        },
+        {
+            "networks": [1, 4, 246, 100, 73799],
+            "name": "Transaction builder",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV",
+            "version": ""
+        },
+        {
+            "networks": [1, 4, 246, 100, 73799],
+            "name": "WalletConnect",
+            "url": "https://cloudflare-ipfs.com/ipfs/QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f",
+            "version": ""
+        },
+        {
+            "networks": [1],
+            "name": "Yearn Vaults",
+            "url": "https://cloudflare-ipfs.com/ipfs/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9",
+            "version": ""
+        }
+    ]
+}
