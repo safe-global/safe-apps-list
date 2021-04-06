@@ -1,9 +1,10 @@
 {
   "name": "safe-apps-list",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gnosis Safe default apps list",
+  "main": "public/app-list.json",
   "scripts": {
+    "build": "rimraf public && mkdir -p public && cross-env node src/write.js > public/gnosis-default.applist.json",
     "start": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,10 @@
   },
   "devDependencies": {
     "cors": "^2.8.5",
-    "nodemon": "^2.0.7"
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.23.0",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2"
   }
 }
