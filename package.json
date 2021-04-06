@@ -5,21 +5,20 @@
   "main": "public/app-list.json",
   "scripts": {
     "build": "rimraf public && mkdir -p public && cross-env node src/write.js > public/gnosis-default.applist.json",
-    "start": "nodemon ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "nodemon src/startDev.js"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
     "eslint": "^7.23.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
     "rimraf": "^3.0.2"
   }
 }

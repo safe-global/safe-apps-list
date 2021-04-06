@@ -1,15 +1,16 @@
-const express = require('express')
 const cors = require('cors')
-const path = require('path')
+const config = require('dotenv').config()
+const express = require('express')
 
-const appList = require('./src/app-list.json')
+const buildList = require('./buildList')
 
 const app = express()
 const port = process.env.PORT || '8080'
 app.use(cors())
 
-app.get('/', (req, res) => {
-  res.json(appList)
+app.get('/', async (req, res) => {
+  const list = await buildList()
+  res.json(list)
 });
 
 
