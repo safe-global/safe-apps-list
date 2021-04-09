@@ -59,6 +59,12 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Liquity
+  {
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVfeXEAJ5QsJALLTHHdaoYycmKC7BwPLyvYeK3z76cpzJ`,
+    disabled: false,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // Mushrooms finance
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8`,

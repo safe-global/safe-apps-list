@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-09T09:03:40.459Z",
+  "timestamp": "2021-04-09T09:12:39.760Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -133,6 +133,16 @@
         "name": "Lido",
         "url": "https://lido.fi"
       },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmVfeXEAJ5QsJALLTHHdaoYycmKC7BwPLyvYeK3z76cpzJ\",\"name\":\"L\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmVfeXEAJ5QsJALLTHHdaoYycmKC7BwPLyvYeK3z76cpzJ",
+      "name": "Liquity Frontend",
+      "iconUrl": "",
+      "description": "Simple frontend with high kickback rate, hosted on Arweave and ENS for maximal decentralisation.",
       "networks": [
         1
       ]
