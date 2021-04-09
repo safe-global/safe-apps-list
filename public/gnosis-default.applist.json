@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-09T09:12:39.760Z",
+  "timestamp": "2021-04-09T10:54:50.143Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -41,6 +41,17 @@
         "name": "Aave",
         "url": "https://aave.com"
       },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://app.aave.com/\",\"name\":\"Aave v2\"}",
+      "url": "https://app.aave.com/",
+      "name": "Aave v2",
+      "iconUrl": "https://app.aave.com/aave.svg",
+      "description": "Non-custodial liquidity protocol to earn interest on deposits and borrow",
+      "iconPath": "aave.svg",
       "networks": [
         1
       ]
