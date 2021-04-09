@@ -23,11 +23,6 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
-  // Aave v2
-  {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVg7aXr5S8sT2iUdUwdkfTJNknmB7rcE3t92HiGoVsYDj`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
-  },
   //Balancer Exchange
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS`,

@@ -1,6 +1,6 @@
 {
-  "name": "Gnosis Safe default app list",
-  "timestamp": "2021-04-06T15:20:49.324Z",
+  "name": "Gnosis Safe default apps list",
+  "timestamp": "2021-04-09T09:03:40.459Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -36,21 +36,6 @@
       "name": "Aave",
       "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK/aave.svg",
       "description": "Lend and borrow straight from your Gnosis Safe",
-      "iconPath": "aave.svg",
-      "providedBy": {
-        "name": "Aave",
-        "url": "https://aave.com"
-      },
-      "networks": [
-        1
-      ]
-    },
-    {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmVg7aXr5S8sT2iUdUwdkfTJNknmB7rcE3t92HiGoVsYDj\",\"name\":\"A\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmVg7aXr5S8sT2iUdUwdkfTJNknmB7rcE3t92HiGoVsYDj",
-      "name": "Aave V2",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmVg7aXr5S8sT2iUdUwdkfTJNknmB7rcE3t92HiGoVsYDj/aave.svg",
-      "description": "Deposit, earn, borrow, and stake on Aave, straight from your Gnosis Safe",
       "iconPath": "aave.svg",
       "providedBy": {
         "name": "Aave",
