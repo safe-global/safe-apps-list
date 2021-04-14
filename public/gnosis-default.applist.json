@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-14T09:30:14.101Z",
+  "timestamp": "2021-04-14T09:31:33.528Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -111,12 +111,16 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q\",\"name\":\"d\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q",
+      "id": "{\"url\":\"https://app.dhedge.org/\",\"name\":\"dHEDGE\"}",
+      "url": "https://app.dhedge.org/",
       "name": "dHEDGE",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q/logo.svg",
+      "iconUrl": "https://app.dhedge.org/logo.svg",
       "description": "Decentralized asset management",
       "iconPath": "logo.svg",
+      "providedBy": {
+        "name": "dHEDGE",
+        "url": "https://www.dhedge.org/"
+      },
       "networks": [
         1
       ]

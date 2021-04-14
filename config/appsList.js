@@ -51,7 +51,7 @@ const safeAppsConfig = [
   },
   // dHedge
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q`,
+    url: `https://app.dhedge.org/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // ENS
