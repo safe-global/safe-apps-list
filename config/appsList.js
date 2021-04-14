@@ -25,9 +25,7 @@ const safeAppsConfig = [
   },
   // Aave v2
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVg7aXr5S8sT2iUdUwdkfTJNknmB7rcE3t92HiGoVsYDj`,
     url: `https://app.aave.com/`,
-    disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
   //Balancer Exchange
@@ -68,9 +66,9 @@ const safeAppsConfig = [
   },
   // Liquity
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVfeXEAJ5QsJALLTHHdaoYycmKC7BwPLyvYeK3z76cpzJ`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P`,
     disabled: false,
-    networks: [ETHEREUM_NETWORK.MAINNET],
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
   // Mushrooms finance
   {
