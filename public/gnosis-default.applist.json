@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-14T09:28:25.262Z",
+  "timestamp": "2021-04-14T09:30:14.101Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -119,6 +119,18 @@
       "iconPath": "logo.svg",
       "networks": [
         1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://app.ens.domains/\",\"name\":\"ENS App\"}",
+      "url": "https://app.ens.domains/",
+      "name": "ENS App",
+      "iconUrl": "https://app.ens.domains/android-chrome-144x144.png",
+      "description": "Decentralised naming for wallets, websites, & more.",
+      "iconPath": "android-chrome-144x144.png",
+      "networks": [
+        1,
+        4
       ]
     },
     {
