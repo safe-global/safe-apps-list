@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-20T16:22:56.970Z",
+  "timestamp": "2021-04-20T16:30:17.056Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -132,6 +132,18 @@
       "iconUrl": "https://app.ens.domains/android-chrome-144x144.png",
       "description": "Decentralised naming for wallets, websites, & more.",
       "iconPath": "android-chrome-144x144.png",
+      "networks": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS\",\"name\":\"G\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS",
+      "name": "Gnosis Auction Starter",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS/logo.svg",
+      "description": "Safe app to start new auctions on Gnosis Auction",
+      "iconPath": "logo.svg",
       "networks": [
         1,
         4
