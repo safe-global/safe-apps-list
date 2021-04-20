@@ -102,7 +102,7 @@ const safeAppsConfig = [
   },
    // Test App
    {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmfMq8NgxdDfai1qKv7bGbT8DegYX4mNzmpi9AkY1VJZBS`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q`,
     networks: [ETHEREUM_NETWORK.RINKEBY],
   },
   // OpenZeppelin

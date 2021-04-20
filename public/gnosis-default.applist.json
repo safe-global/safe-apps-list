@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-20T16:04:19.631Z",
+  "timestamp": "2021-04-20T16:08:59.865Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -247,12 +247,12 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmfMq8NgxdDfai1qKv7bGbT8DegYX4mNzmpi9AkY1VJZBS\",\"name\":\"T\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmfMq8NgxdDfai1qKv7bGbT8DegYX4mNzmpi9AkY1VJZBS",
-      "name": "SDK Test app",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmfMq8NgxdDfai1qKv7bGbT8DegYX4mNzmpi9AkY1VJZBS/logo.svg",
-      "description": "Describe your Safe App here",
-      "iconPath": "logo.png",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q\",\"name\":\"d\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q",
+      "name": "dHEDGE",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmaiemnumMaaK9wE1pbMfm3YSBUpcFNgDh3Bf6VZCZq57Q/logo.svg",
+      "description": "Decentralized asset management",
+      "iconPath": "logo.svg",
       "networks": [
         4
       ]
