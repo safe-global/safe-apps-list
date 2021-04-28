@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-20T16:30:17.056Z",
+  "timestamp": "2021-04-28T12:53:31.175Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,10 +16,10 @@
   ],
   "apps": [
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw\",\"name\":\"1\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw",
       "name": "1inch.exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw/assets/1inch.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw/assets/1inch.png",
       "description": "DEX aggregator with the best prices on the market",
       "iconPath": "assets/1inch.png",
       "providedBy": {
@@ -31,10 +31,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK\",\"name\":\"A\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK",
       "name": "Aave",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK/aave.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmQ3w2ezp2zx3u2LYQHyuNzMrLDJFjyL1rjAFTjNMcQ4cK/aave.svg",
       "description": "Lend and borrow straight from your Gnosis Safe",
       "iconPath": "aave.svg",
       "providedBy": {
@@ -57,10 +57,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS\",\"name\":\"B\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS",
       "name": "Balancer Exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS/logo512.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS/logo512.png",
       "description": "Exchange tokens using the Balancer DEX",
       "iconPath": "logo512.png",
       "providedBy": {
@@ -72,10 +72,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf\",\"name\":\"B\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf",
       "name": "Balancer Pool Management",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf/logo512.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf/logo512.png",
       "description": "Manage liquidity on Balancer from your Gnosis Safe",
       "iconPath": "logo512.png",
       "providedBy": {
@@ -99,10 +99,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k\",\"name\":\"C\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k",
       "name": "Compound",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k/Compound.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k/Compound.png",
       "description": "Money markets on the Ethereum blockchain",
       "iconPath": "Compound.png",
       "networks": [
@@ -138,10 +138,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS\",\"name\":\"G\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS",
       "name": "Gnosis Auction Starter",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS/logo.svg",
       "description": "Safe app to start new auctions on Gnosis Auction",
       "iconPath": "logo.svg",
       "networks": [
@@ -150,10 +150,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj\",\"name\":\"I\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj",
       "name": "Idle v4",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj/logo.svg",
       "description": "Always the best yield, with no effort",
       "iconPath": "logo.svg",
       "networks": [
@@ -162,10 +162,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC\",\"name\":\"L\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC",
       "name": "Lido Staking",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//Qmde8dsa9r8bB59CNGww6LRiaZABuKaJfuzvu94hFkatJC/logo.svg",
       "description": "Lido is the liquid staking solution for Ethereum.",
       "iconPath": "logo.svg",
       "providedBy": {
@@ -177,10 +177,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P\",\"name\":\"L\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P",
       "name": "Liquity Frontend",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P/logo256.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P/logo256.png",
       "description": "Simple frontend with high kickback rate, hosted on Arweave and ENS for maximal decentralisation.",
       "iconPath": "logo256.png",
       "networks": [
@@ -189,21 +189,17 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8\",\"name\":\"M\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8",
-      "name": "Mushrooms Finance",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8/logo.png",
-      "description": "Mushrooms Finance is a yield aggregator with focus on seeking sustainable profit",
-      "iconPath": "logo.png",
-      "networks": [
-        1
-      ]
+      "id": "0.04810630153563955",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8",
+      "name": "unknown",
+      "iconUrl": "",
+      "description": ""
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr\",\"name\":\"P\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr",
       "name": "PoolTogether",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr/pool-together.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr/pool-together.png",
       "description": "No-loss lotteries on your Gnosis Safe",
       "iconPath": "pool-together.png",
       "providedBy": {
@@ -216,10 +212,25 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR\",\"name\":\"R\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR",
+      "id": "{\"url\":\"https://app.reflexer.finance/\",\"name\":\"Reflexer\"}",
+      "url": "https://app.reflexer.finance/",
+      "name": "Reflexer",
+      "iconUrl": "https://app.reflexer.finance/logo512.png",
+      "description": "Volatility dampened synthetic instruments",
+      "iconPath": "logo512.png",
+      "providedBy": {
+        "name": "Reflexer",
+        "url": "https://app.reflexer.finance/"
+      },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR",
       "name": "Request",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR/request_icon_green.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmTBBaiDQyGa17DJ7DdviyHbc51fTVgf6Z5PW5w2YUTkgR/request_icon_green.svg",
       "description": "Create, receive and pay crypto invoices straight from your Gnosis Safe",
       "iconPath": "request_icon_green.svg",
       "providedBy": {
@@ -231,26 +242,17 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB",
-      "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB/logo.svg",
-      "description": "Safe App for interacting with the Sablier protocol",
-      "iconPath": "logo.svg",
-      "providedBy": {
-        "name": "Sablier",
-        "url": "https://sablier.finance"
-      },
-      "networks": [
-        1,
-        4
-      ]
+      "id": "0.7612974405824331",
+      "url": "https://cloudflare-ipfs.com/ipfs//Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB",
+      "name": "unknown",
+      "iconUrl": "",
+      "description": ""
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA",
       "name": "Synthetix",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA/Synthetix.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA/Synthetix.png",
       "description": "Trade synthetic assets on Ethereum",
       "iconPath": "Synthetix.png",
       "networks": [
@@ -259,10 +261,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA\",\"name\":\"O\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA",
       "name": "OpenZeppelin",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA/openzeppelin.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA/openzeppelin.png",
       "description": "Securely manage and monitor your Ethereum project.",
       "iconPath": "openzeppelin.png",
       "networks": [
@@ -271,10 +273,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV\",\"name\":\"T\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV",
       "name": "Transaction Builder",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV/tx-builder.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV/tx-builder.png",
       "description": "A Safe app to compose custom transactions",
       "iconPath": "tx-builder.png",
       "networks": [
@@ -286,10 +288,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f\",\"name\":\"W\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f",
       "name": "WalletConnect",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f/wallet-connect.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//QmX9B982ZAaBzbm6yBoZUS3uLgcizYA6wW65RCXVRZkG6f/wallet-connect.svg",
       "description": "Allows your Gnosis Safe Multisig to connect to dapps via WalletConnect.",
       "iconPath": "wallet-connect.svg",
       "networks": [
@@ -301,10 +303,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9\",\"name\":\"Y\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs//Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9\",\"name\":\"\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs//Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9",
       "name": "Yearn Vaults",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs//Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9/logo.svg",
       "description": "Safe App for interacting with Yearn Vaults",
       "iconPath": "logo.svg",
       "providedBy": {
