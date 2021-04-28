@@ -1,6 +1,6 @@
 const ETHEREUM_NETWORK = {
   MAINNET: 1,
-  MORDEN :2,
+  MORDEN: 2,
   ROPSTEN: 3,
   RINKEBY: 4,
   GOERLI: 5,
@@ -79,6 +79,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
+  },
+  // mStable
+  {
+    url: `https://mstable.app/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // Mushrooms finance
   {

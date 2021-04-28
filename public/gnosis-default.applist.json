@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-27T15:55:31.165Z",
+  "timestamp": "2021-04-28T13:30:55.901Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -186,6 +186,21 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://mstable.app/\",\"name\":\"mStable\"}",
+      "url": "https://mstable.app/",
+      "name": "mStable",
+      "iconUrl": "https://mstable.app/icons/mstable-logo.svg",
+      "description": "mStable unites stablecoins, lending and swapping into one standard.",
+      "iconPath": "icons/mstable-logo.svg",
+      "providedBy": {
+        "name": "mStable",
+        "url": "https://mstable.app"
+      },
+      "networks": [
+        1
       ]
     },
     {
