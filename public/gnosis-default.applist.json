@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-27T15:55:31.165Z",
+  "timestamp": "2021-04-28T14:14:53.943Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -177,10 +177,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P\",\"name\":\"L\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w\",\"name\":\"L\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w",
       "name": "Liquity Frontend",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P/logo256.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w/logo256.png",
       "description": "Simple frontend with high kickback rate, hosted on Arweave and ENS for maximal decentralisation.",
       "iconPath": "logo256.png",
       "networks": [

@@ -1,6 +1,6 @@
 const ETHEREUM_NETWORK = {
   MAINNET: 1,
-  MORDEN :2,
+  MORDEN: 2,
   ROPSTEN: 3,
   RINKEBY: 4,
   GOERLI: 5,
@@ -76,7 +76,7 @@ const safeAppsConfig = [
   },
   // Liquity
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
