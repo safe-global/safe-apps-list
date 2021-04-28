@@ -1,26 +1,26 @@
-const { version } = require("../package.json")
+const { version } = require('../package.json')
 
-const safeAppsConfig = require("../config/appsList")
-const fetchAppInfo = require("./utils/fetchAppInfo")
+const safeAppsConfig = require('../config/appsList')
+const fetchAppInfo = require('./utils/fetchAppInfo')
 
 const getAppsList = async () => {
-  if (!process.env.REACT_APP_IPFS_GATEWAY) {
-    throw Error("REACT_APP_IPFS_GATEWAY should be defined")
-  }
+    if (!process.env.REACT_APP_IPFS_GATEWAY) {
+        throw Error('REACT_APP_IPFS_GATEWAY should be defined')
+    }
 
-  manifestInfo = []
+    const safeAppsWithManifestInfoPromises = safeAppsConfig.map(async app => {
+      const appInfo = fetchAppInfo(app)
+      return appInfo
+    })
 
-  for (const app of safeAppsConfig) {
-    const appInfo = await fetchAppInfo(app)
+    const safeAppsWithManifestInfo = await Promise.all(safeAppsWithManifestInfoPromises)
 
-    manifestInfo.push(appInfo)
-  }
-
-  return manifestInfo
+    return safeAppsWithManifestInfo
 }
 
+
 const buildList = async () => {
-  const parsed = version.split(".")
+  const parsed = version.split('.')
 
   const appsList = await getAppsList()
 
@@ -32,9 +32,9 @@ const buildList = async () => {
       minor: +parsed[1],
       patch: +parsed[2],
     },
-    logoUri: "logo-uri",
-    keywords: ["gnosis", "safe", "default", "app", "list"],
-    apps: [...appsList],
+    logoUri: 'logo-uri',
+    keywords: ['gnosis', 'safe', 'default', 'app', 'list'],
+    apps: [...appsList]
   }
 }
 
