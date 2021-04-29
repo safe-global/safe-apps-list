@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-29T10:14:17.177Z",
+  "timestamp": "2021-04-29T10:17:21.925Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -228,6 +228,21 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://app.reflexer.finance/\",\"name\":\"Reflexer\"}",
+      "url": "https://app.reflexer.finance/",
+      "name": "Reflexer",
+      "iconUrl": "https://app.reflexer.finance/logo512.png",
+      "description": "Volatility dampened synthetic instruments",
+      "iconPath": "logo512.png",
+      "providedBy": {
+        "name": "Reflexer",
+        "url": "https://app.reflexer.finance/"
+      },
+      "networks": [
+        1
       ]
     },
     {
