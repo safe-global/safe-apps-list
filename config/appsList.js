@@ -49,6 +49,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // DeFi Saver
+  {
+    url: `https://app.defisaver.com/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // dHedge
   {
     url: `https://app.dhedge.org/`,

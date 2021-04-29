@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-29T10:17:21.925Z",
+  "timestamp": "2021-04-29T13:14:34.755Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -108,6 +108,21 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://app.defisaver.com/\",\"name\":\"DeFi Saver\"}",
+      "url": "https://app.defisaver.com/",
+      "name": "DeFi Saver",
+      "iconUrl": "https://app.defisaver.com//assets/icons/icon-transparent.svg",
+      "description": "The next generation DeFi management dashboard",
+      "iconPath": "/assets/icons/icon-transparent.svg",
+      "providedBy": {
+        "name": "DeFi Saver",
+        "url": "https://defisaver.com"
+      },
+      "networks": [
+        1
       ]
     },
     {
