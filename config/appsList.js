@@ -80,6 +80,11 @@ const safeAppsConfig = [
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // mStable
+  {
+    url: `https://mstable.app/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // Mushrooms finance
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8`,
