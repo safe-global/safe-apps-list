@@ -1,6 +1,6 @@
 const ETHEREUM_NETWORK = {
   MAINNET: 1,
-  MORDEN :2,
+  MORDEN: 2,
   ROPSTEN: 3,
   RINKEBY: 4,
   GOERLI: 5,
@@ -49,6 +49,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // DeFi Saver
+  {
+    url: `https://app.defisaver.com/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // dHedge
   {
     url: `https://app.dhedge.org/`,
@@ -76,9 +81,14 @@ const safeAppsConfig = [
   },
   // Liquity
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmYzTAH6Nzexu35tbWmhVrLYwWj9MdbD1iECejgaGHFk8P`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
+  },
+  // mStable
+  {
+    url: `https://mstable.app/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // Mushrooms finance
   {
@@ -102,7 +112,7 @@ const safeAppsConfig = [
   },
   // Sablier
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qmb1Xpfu9mnX4A3trpoVeBZ9sTiNtEuRoFKEiaVXWntDxB`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmY8R8huMugBF1kHGKrX61M5kC4MLis4rL9DW2pEPWv2Uf`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
   // Synthetix
