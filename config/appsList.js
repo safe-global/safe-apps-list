@@ -30,7 +30,7 @@ const safeAppsConfig = [
   },
   //Balancer Exchange
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // Balancer Pool

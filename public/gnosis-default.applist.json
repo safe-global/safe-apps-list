@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-02T23:04:32Z",
+  "timestamp": "2021-05-04T09:59:43.759Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -57,10 +57,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS\",\"name\":\"B\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1\",\"name\":\"B\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1",
       "name": "Balancer Exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS/logo512.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1/logo512.png",
       "description": "Exchange tokens using the Balancer DEX",
       "iconPath": "logo512.png",
       "providedBy": {
