@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-04-29T13:14:34.755Z",
+  "timestamp": "2021-05-02T23:04:32Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -276,10 +276,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmY8R8huMugBF1kHGKrX61M5kC4MLis4rL9DW2pEPWv2Uf\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmY8R8huMugBF1kHGKrX61M5kC4MLis4rL9DW2pEPWv2Uf",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmbGzpuwowNwnDbTNfzcsTqndKmdkax8gL6ADSeQP2ZSoW\",\"name\":\"S\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmbGzpuwowNwnDbTNfzcsTqndKmdkax8gL6ADSeQP2ZSoW",
       "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmY8R8huMugBF1kHGKrX61M5kC4MLis4rL9DW2pEPWv2Uf/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmbGzpuwowNwnDbTNfzcsTqndKmdkax8gL6ADSeQP2ZSoW/logo.svg",
       "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {
