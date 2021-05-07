@@ -112,7 +112,7 @@ const safeAppsConfig = [
   },
   // Sablier
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmbGzpuwowNwnDbTNfzcsTqndKmdkax8gL6ADSeQP2ZSoW`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
   // Synthetix
