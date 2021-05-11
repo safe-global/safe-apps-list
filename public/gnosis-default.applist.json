@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-06T20:18:50Z",
+  "timestamp": "2021-05-11T08:08:28.337Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,10 +16,10 @@
   ],
   "apps": [
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw\",\"name\":\"1\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmfRJtgDPNCyuvU1vq77AtwRmETc5fmuMqJA4vZqRWT8BC\",\"name\":\"1\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmfRJtgDPNCyuvU1vq77AtwRmETc5fmuMqJA4vZqRWT8BC",
       "name": "1inch.exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw/assets/1inch.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmfRJtgDPNCyuvU1vq77AtwRmETc5fmuMqJA4vZqRWT8BC/assets/1inch.png",
       "description": "DEX aggregator with the best prices on the market",
       "iconPath": "assets/1inch.png",
       "providedBy": {
