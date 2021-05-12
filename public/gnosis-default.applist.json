@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-06T20:18:50Z",
+  "timestamp": "2021-05-12T13:01:18.509Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -289,6 +289,17 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://stakewise.io\",\"name\":\"StakeWise\"}",
+      "url": "https://stakewise.io",
+      "name": "StakeWise",
+      "iconUrl": "https://stakewise.io/logo192.png",
+      "description": "Stake your ETH and manage capital flexibly with the principal and yield tokens.",
+      "iconPath": "logo192.png",
+      "networks": [
+        1
       ]
     },
     {
