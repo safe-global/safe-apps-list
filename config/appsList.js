@@ -15,7 +15,7 @@ const ETHEREUM_NETWORK = {
 const safeAppsConfig = [
   // 1inch
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // Aave
