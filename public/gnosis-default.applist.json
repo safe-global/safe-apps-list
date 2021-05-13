@@ -292,6 +292,17 @@
       ]
     },
     {
+      "id": "{\"url\":\"https://stakewise.io\",\"name\":\"StakeWise\"}",
+      "url": "https://stakewise.io",
+      "name": "StakeWise",
+      "iconUrl": "https://stakewise.io/logo192.png",
+      "description": "Stake your ETH and manage capital flexibly with the principal and yield tokens.",
+      "iconPath": "logo192.png",
+      "networks": [
+        1
+      ]
+    },
+    {
       "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA\",\"name\":\"S\"}",
       "url": "https://cloudflare-ipfs.com/ipfs/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA",
       "name": "Synthetix",

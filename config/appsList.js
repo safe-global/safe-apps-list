@@ -115,6 +115,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // Stakewise
+  {
+    url: `https://stakewise.io`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // Synthetix
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA`,
