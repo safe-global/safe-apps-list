@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-12T13:18:13.108Z",
+  "timestamp": "2021-05-14T11:27:10.247Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -108,6 +108,17 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://curve.fi\",\"name\":\"Curve\"}",
+      "url": "https://curve.fi",
+      "name": "Curve",
+      "iconUrl": "https://curve.fi/logo-square.svg",
+      "description": "Decentralized exchange liquidity pool designed for extremely efficient stablecoin trading and low-risk income for liquidity providers",
+      "iconPath": "logo-square.svg",
+      "networks": [
+        1
       ]
     },
     {

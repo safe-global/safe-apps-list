@@ -49,6 +49,10 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  {
+    url: `https://curve.fi`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // DeFi Saver
   {
     url: `https://app.defisaver.com/`,
