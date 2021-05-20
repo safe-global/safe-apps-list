@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-19T12:02:49.721Z",
+  "timestamp": "2021-05-20T19:06:48.104Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -276,10 +276,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmbPN5p3a9VBVXBPA9FH6AnsBFBkv4mze2BMpEobS1KofD\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmbPN5p3a9VBVXBPA9FH6AnsBFBkv4mze2BMpEobS1KofD",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK\",\"name\":\"S\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK",
       "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmbPN5p3a9VBVXBPA9FH6AnsBFBkv4mze2BMpEobS1KofD/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK/logo.svg",
       "description": "Stream money with Sablier",
       "iconPath": "logo.svg",
       "providedBy": {
