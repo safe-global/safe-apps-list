@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-20T19:06:48.104Z",
+  "timestamp": "2021-05-24T09:30:10.679Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -136,6 +136,17 @@
         "name": "dHEDGE",
         "url": "https://www.dhedge.org/"
       },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://furucombo.app/\",\"name\":\"Furucombo\"}",
+      "url": "https://furucombo.app/",
+      "name": "Furucombo",
+      "iconUrl": "https://furucombo.app/apple-touch-icon.png",
+      "description": "Create all kinds of DeFi combo.",
+      "iconPath": "apple-touch-icon.png",
       "networks": [
         1
       ]
@@ -280,7 +291,7 @@
       "url": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK",
       "name": "Sablier",
       "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK/logo.svg",
-      "description": "Stream money with Sablier",
+      "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {
         "name": "Sablier",

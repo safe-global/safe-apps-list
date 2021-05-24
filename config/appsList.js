@@ -59,6 +59,11 @@ const safeAppsConfig = [
     url: `https://app.dhedge.org/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Furucombo
+  {
+    url: `https://furucombo.app/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // ENS
   {
     url: `https://app.ens.domains/`,
