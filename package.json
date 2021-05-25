@@ -4,7 +4,7 @@
   "description": "Gnosis Safe default apps list",
   "main": "public/app-list.json",
   "scripts": {
-    "build": "rimraf public && mkdir -p public && node src/write.js > public/gnosis-default.applist.json",
+    "build": "rimraf public && mkdir -p public && cross-env node src/write.js > public/gnosis-default.applist.json",
     "start": "nodemon src/startDev.js"
   },
   "dependencies": {
