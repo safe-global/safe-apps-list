@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-24T09:30:10.679Z",
+  "timestamp": "2021-05-25T08:29:09.758Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -238,6 +238,23 @@
       "iconPath": "logo.png",
       "networks": [
         1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://paraswap.io\",\"name\":\"ParaSwap\"}",
+      "url": "https://paraswap.io",
+      "name": "ParaSwap",
+      "iconUrl": "https://paraswap.io/paraswap.svg",
+      "description": "ParaSwap allows dApps and traders to get the best DEX liquidity by aggregating multiple markets and offering the best rates",
+      "iconPath": "paraswap.svg",
+      "providedBy": {
+        "name": "ParaSwap",
+        "url": "https://paraswap.io"
+      },
+      "networks": [
+        1,
+        137,
+        56
       ]
     },
     {
