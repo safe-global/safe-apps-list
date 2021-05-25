@@ -5,7 +5,9 @@ const ETHEREUM_NETWORK = {
   RINKEBY: 4,
   GOERLI: 5,
   KOVAN: 42,
+  BSC: 56,
   XDAI: 100,
+  POLYGON: 137,
   ENERGY_WEB_CHAIN: 246,
   VOLTA: 73799,
   UNKNOWN: 0,
@@ -99,6 +101,15 @@ const safeAppsConfig = [
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8`,
     networks: [ETHEREUM_NETWORK.MAINNET],
+  },
+  // Paraswap
+  {
+    url: `https://paraswap.io`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.BSC,
+    ],
   },
   // Pooltogether
   {
