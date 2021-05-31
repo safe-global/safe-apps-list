@@ -179,6 +179,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+    // Synthetix Staking
+    {
+      url: `https://staking.synthetix.io/`,
+      networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.KOVAN],
+    },
 ]
 
 module.exports = safeAppsConfig
