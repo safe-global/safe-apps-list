@@ -17,8 +17,12 @@ const ETHEREUM_NETWORK = {
 const safeAppsConfig = [
   // 1inch
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
+    url: `https://app.1inch.io/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.POLYGON,
+    ],
   },
   // Aave
   {
