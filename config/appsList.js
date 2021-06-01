@@ -51,6 +51,22 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // Convo
+  {
+    url: `https://theconvo.space/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.RINKEBY,
+      ETHEREUM_NETWORK.ROPSTEN,
+      ETHEREUM_NETWORK.GOERLI,
+      ETHEREUM_NETWORK.KOVAN,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.ENERGY_WEB_CHAIN,
+      ETHEREUM_NETWORK.VOLTA,
+      ETHEREUM_NETWORK.XDAI
+    ],
+  },
   // DeFi Saver
   {
     url: `https://app.defisaver.com/`,
