@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-05-14T11:27:10.247Z",
+  "timestamp": "2021-06-07T11:27:27.461Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,18 +16,20 @@
   ],
   "apps": [
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ\",\"name\":\"1\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ",
-      "name": "1inch.exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ/assets/1inch.png",
-      "description": "DEX aggregator with the best prices on the market",
-      "iconPath": "assets/1inch.png",
+      "id": "{\"url\":\"https://app.1inch.io/\",\"name\":\"1inch Network\"}",
+      "url": "https://app.1inch.io/",
+      "name": "1inch Network",
+      "iconUrl": "https://app.1inch.io/assets/images/1inch.svg",
+      "description": "The most efficient defi aggregator",
+      "iconPath": "assets/images/1inch.svg",
       "providedBy": {
-        "name": "1inch corporation",
-        "url": "https://1inch.exchange"
+        "name": "1inch network",
+        "url": "https://1inch.io"
       },
       "networks": [
-        1
+        1,
+        56,
+        137
       ]
     },
     {
@@ -118,7 +120,8 @@
       "description": "Decentralized exchange liquidity pool designed for extremely efficient stablecoin trading and low-risk income for liquidity providers",
       "iconPath": "logo-square.svg",
       "networks": [
-        1
+        1,
+        137
       ]
     },
     {
@@ -147,6 +150,17 @@
         "name": "dHEDGE",
         "url": "https://www.dhedge.org/"
       },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://furucombo.app/\",\"name\":\"Furucombo\"}",
+      "url": "https://furucombo.app/",
+      "name": "Furucombo",
+      "iconUrl": "https://furucombo.app/apple-touch-icon.png",
+      "description": "Create all kinds of DeFi combo.",
+      "iconPath": "apple-touch-icon.png",
       "networks": [
         1
       ]
@@ -241,6 +255,23 @@
       ]
     },
     {
+      "id": "{\"url\":\"https://paraswap.io\",\"name\":\"ParaSwap\"}",
+      "url": "https://paraswap.io",
+      "name": "ParaSwap",
+      "iconUrl": "https://paraswap.io/paraswap.svg",
+      "description": "ParaSwap allows dApps and traders to get the best DEX liquidity by aggregating multiple markets and offering the best rates",
+      "iconPath": "paraswap.svg",
+      "providedBy": {
+        "name": "ParaSwap",
+        "url": "https://paraswap.io"
+      },
+      "networks": [
+        1,
+        137,
+        56
+      ]
+    },
+    {
       "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr\",\"name\":\"P\"}",
       "url": "https://cloudflare-ipfs.com/ipfs/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr",
       "name": "PoolTogether",
@@ -287,10 +318,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK\",\"name\":\"S\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK",
       "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK/logo.svg",
       "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {

@@ -5,7 +5,9 @@ const ETHEREUM_NETWORK = {
   RINKEBY: 4,
   GOERLI: 5,
   KOVAN: 42,
+  BSC: 56,
   XDAI: 100,
+  POLYGON: 137,
   ENERGY_WEB_CHAIN: 246,
   VOLTA: 73799,
   UNKNOWN: 0,
@@ -15,8 +17,12 @@ const ETHEREUM_NETWORK = {
 const safeAppsConfig = [
   // 1inch
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qmb3e9wpqQx2mTGwvjskGQqJsi2j2YkQerGpvv7GLFDuKJ`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
+    url: `https://app.1inch.io/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.POLYGON,
+    ],
   },
   // Aave
   {
@@ -49,9 +55,10 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // Curve
   {
     url: `https://curve.fi`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.POLYGON],
   },
   // DeFi Saver
   {
@@ -61,6 +68,11 @@ const safeAppsConfig = [
   // dHedge
   {
     url: `https://app.dhedge.org/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
+  // Furucombo
+  {
+    url: `https://furucombo.app/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // ENS
@@ -99,6 +111,15 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmT96aES2YA9BssByc6DVizQDkofmKRErs8gJyqWipjyS8`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Paraswap
+  {
+    url: `https://paraswap.io`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.BSC,
+    ],
+  },
   // Pooltogether
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmTa21pi77hiT1sLCGy5BeVwcyzExUSp2z7byxZukye8hr`,
@@ -116,7 +137,7 @@ const safeAppsConfig = [
   },
   // Sablier
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmeFPwySJUPpjSS16imQJWP8b1BArn9UPfapAbpd7qDzQm`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmcTYwK82R1QG5236dkdjBrTxaC3xr6HVzDHxZkSRBBKHK`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
   // Stakewise
