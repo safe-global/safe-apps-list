@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-02T10:46:39.191Z",
+  "timestamp": "2021-06-07T11:27:27.461Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,9 +16,9 @@
   ],
   "apps": [
     {
-      "id": "{\"url\":\"https://app.1inch.io/\",\"name\":\"1inch network\"}",
+      "id": "{\"url\":\"https://app.1inch.io/\",\"name\":\"1inch Network\"}",
       "url": "https://app.1inch.io/",
-      "name": "1inch network",
+      "name": "1inch Network",
       "iconUrl": "https://app.1inch.io/assets/images/1inch.svg",
       "description": "The most efficient defi aggregator",
       "iconPath": "assets/images/1inch.svg",
@@ -110,6 +110,18 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://curve.fi\",\"name\":\"Curve\"}",
+      "url": "https://curve.fi",
+      "name": "Curve",
+      "iconUrl": "https://curve.fi/logo-square.svg",
+      "description": "Decentralized exchange liquidity pool designed for extremely efficient stablecoin trading and low-risk income for liquidity providers",
+      "iconPath": "logo-square.svg",
+      "networks": [
+        1,
+        137
       ]
     },
     {
