@@ -183,6 +183,11 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.XDAI,
     ],
   },
+  // OmniBridge
+  {
+    url: `https://bridge.xdaichain.com/`,
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.XDAI],
+  },
   // Yearn Vaults
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9`,

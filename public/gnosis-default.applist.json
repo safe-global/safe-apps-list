@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-07T11:27:27.461Z",
+  "timestamp": "2021-06-11T11:45:04.505Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -395,6 +395,18 @@
         4,
         246,
         73799,
+        100
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://bridge.xdaichain.com/\",\"name\":\"xDai Bridge\"}",
+      "url": "https://bridge.xdaichain.com/",
+      "name": "xDai Bridge",
+      "iconUrl": "https://bridge.xdaichain.com/logo.svg",
+      "description": "App that allows you to bridge Dai to xDai and vice versa",
+      "iconPath": "logo.svg",
+      "networks": [
+        1,
         100
       ]
     },
