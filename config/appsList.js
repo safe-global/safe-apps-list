@@ -193,6 +193,10 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  {
+    url: `https://app.zerion.io`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
 ]
 
 module.exports = safeAppsConfig

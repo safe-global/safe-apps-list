@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-13T10:03:02.189Z",
+  "timestamp": "2021-06-17T12:12:49.081Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -322,7 +322,7 @@
       "url": "https://cloudflare-ipfs.com/ipfs/QmRQjKcMkVwKpvtFo4DaNdhCADFzzokJMkqeCGW1HWNZXB",
       "name": "Sablier",
       "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRQjKcMkVwKpvtFo4DaNdhCADFzzokJMkqeCGW1HWNZXB/logo.svg",
-      "description": "Stream money with Sablier",
+      "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {
         "name": "Sablier",
@@ -420,6 +420,21 @@
       "providedBy": {
         "name": "Yearn Finance",
         "url": "https://yearn.finance"
+      },
+      "networks": [
+        1
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://app.zerion.io\",\"name\":\"Zerion\"}",
+      "url": "https://app.zerion.io",
+      "name": "Zerion",
+      "iconUrl": "https://app.zerion.io//logo.svg",
+      "description": "Zerion — Invest in DeFi from one place",
+      "iconPath": "/logo.svg",
+      "providedBy": {
+        "name": "Zerion",
+        "url": "https://app.zerion.io"
       },
       "networks": [
         1
