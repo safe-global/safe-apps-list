@@ -163,7 +163,7 @@ const safeAppsConfig = [
   },
   // TX-Builder
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5`,
     networks: [
       ETHEREUM_NETWORK.MAINNET,
       ETHEREUM_NETWORK.RINKEBY,
