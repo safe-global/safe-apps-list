@@ -318,11 +318,11 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmRQjKcMkVwKpvtFo4DaNdhCADFzzokJMkqeCGW1HWNZXB\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmRQjKcMkVwKpvtFo4DaNdhCADFzzokJMkqeCGW1HWNZXB",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmeKy9CHwt2CfTz8qYi8hgA53XgkYDEnPbPrSJ6QmqT9mN\",\"name\":\"S\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmeKy9CHwt2CfTz8qYi8hgA53XgkYDEnPbPrSJ6QmqT9mN",
       "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRQjKcMkVwKpvtFo4DaNdhCADFzzokJMkqeCGW1HWNZXB/logo.svg",
-      "description": "Safe App for interacting with the Sablier protocol",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmeKy9CHwt2CfTz8qYi8hgA53XgkYDEnPbPrSJ6QmqT9mN/logo.svg",
+      "description": "Stream money with Sablier",
       "iconPath": "logo.svg",
       "providedBy": {
         "name": "Sablier",
@@ -369,10 +369,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV\",\"name\":\"T\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5\",\"name\":\"T\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5",
       "name": "Transaction Builder",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmZBgEvjqi9Jg8xATr9uUgNUVmnfYiECNxZv9Taux7mzgV/tx-builder.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5/tx-builder.png",
       "description": "A Safe app to compose custom transactions",
       "iconPath": "tx-builder.png",
       "networks": [
