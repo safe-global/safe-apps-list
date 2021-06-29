@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-17T12:12:49.081Z",
+  "timestamp": "2021-06-29T19:24:39.709Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -19,9 +19,9 @@
       "id": "{\"url\":\"https://app.1inch.io/\",\"name\":\"1inch Network\"}",
       "url": "https://app.1inch.io/",
       "name": "1inch Network",
-      "iconUrl": "https://app.1inch.io/assets/images/1inch.svg",
+      "iconUrl": "https://app.1inch.io/assets/images/1inch-token.svg",
       "description": "The most efficient defi aggregator",
-      "iconPath": "assets/images/1inch.svg",
+      "iconPath": "assets/images/1inch-token.svg",
       "providedBy": {
         "name": "1inch network",
         "url": "https://1inch.io"
@@ -89,18 +89,6 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://safe-cmm.gnosis.io\",\"name\":\"Gnosis Custom Market Maker\"}",
-      "url": "https://safe-cmm.gnosis.io",
-      "name": "Gnosis Custom Market Maker",
-      "iconUrl": "https://safe-cmm.gnosis.io/img/appIcon.svg",
-      "description": "Allows you to deploy, withdraw and manage your custom market maker strategies",
-      "iconPath": "img/appIcon.svg",
-      "networks": [
-        4,
-        100
-      ]
-    },
-    {
       "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k\",\"name\":\"C\"}",
       "url": "https://cloudflare-ipfs.com/ipfs/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k",
       "name": "Compound",
@@ -155,17 +143,6 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://furucombo.app/\",\"name\":\"Furucombo\"}",
-      "url": "https://furucombo.app/",
-      "name": "Furucombo",
-      "iconUrl": "https://furucombo.app/apple-touch-icon.png",
-      "description": "Create all kinds of DeFi combo.",
-      "iconPath": "apple-touch-icon.png",
-      "networks": [
-        1
-      ]
-    },
-    {
       "id": "{\"url\":\"https://app.ens.domains/\",\"name\":\"ENS App\"}",
       "url": "https://app.ens.domains/",
       "name": "ENS App",
@@ -178,6 +155,17 @@
       ]
     },
     {
+      "id": "{\"url\":\"https://furucombo.app/\",\"name\":\"Furucombo\"}",
+      "url": "https://furucombo.app/",
+      "name": "Furucombo",
+      "iconUrl": "https://furucombo.app/apple-touch-icon.png",
+      "description": "Create all kinds of DeFi combo.",
+      "iconPath": "apple-touch-icon.png",
+      "networks": [
+        1
+      ]
+    },
+    {
       "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS\",\"name\":\"G\"}",
       "url": "https://cloudflare-ipfs.com/ipfs/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS",
       "name": "Gnosis Auction Starter",
@@ -187,6 +175,18 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://safe-cmm.gnosis.io\",\"name\":\"Gnosis Custom Market Maker\"}",
+      "url": "https://safe-cmm.gnosis.io",
+      "name": "Gnosis Custom Market Maker",
+      "iconUrl": "https://safe-cmm.gnosis.io/img/appIcon.svg",
+      "description": "Allows you to deploy, withdraw and manage your custom market maker strategies",
+      "iconPath": "img/appIcon.svg",
+      "networks": [
+        4,
+        100
       ]
     },
     {
@@ -217,10 +217,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w\",\"name\":\"L\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmWZDNujzAHeALnzAvmT975TejAmwWmYTpVqgZrexBAVrt\",\"name\":\"L\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmWZDNujzAHeALnzAvmT975TejAmwWmYTpVqgZrexBAVrt",
       "name": "Liquity Frontend",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w/logo256.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmWZDNujzAHeALnzAvmT975TejAmwWmYTpVqgZrexBAVrt/logo256.png",
       "description": "Simple frontend with high kickback rate, hosted on Arweave and ENS for maximal decentralisation.",
       "iconPath": "logo256.png",
       "networks": [
@@ -322,7 +322,7 @@
       "url": "https://cloudflare-ipfs.com/ipfs/QmeKy9CHwt2CfTz8qYi8hgA53XgkYDEnPbPrSJ6QmqT9mN",
       "name": "Sablier",
       "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmeKy9CHwt2CfTz8qYi8hgA53XgkYDEnPbPrSJ6QmqT9mN/logo.svg",
-      "description": "Stream money with Sablier",
+      "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {
         "name": "Sablier",
@@ -354,6 +354,18 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://bridge.xdaichain.com/\",\"name\":\"xDai Bridge\"}",
+      "url": "https://bridge.xdaichain.com/",
+      "name": "xDai Bridge",
+      "iconUrl": "https://bridge.xdaichain.com/logo.svg",
+      "description": "App that allows you to bridge Dai to xDai and vice versa",
+      "iconPath": "logo.svg",
+      "networks": [
+        1,
+        100
       ]
     },
     {
@@ -395,18 +407,6 @@
         4,
         246,
         73799,
-        100
-      ]
-    },
-    {
-      "id": "{\"url\":\"https://bridge.xdaichain.com/\",\"name\":\"xDai Bridge\"}",
-      "url": "https://bridge.xdaichain.com/",
-      "name": "xDai Bridge",
-      "iconUrl": "https://bridge.xdaichain.com/logo.svg",
-      "description": "App that allows you to bridge Dai to xDai and vice versa",
-      "iconPath": "logo.svg",
-      "networks": [
-        1,
         100
       ]
     },

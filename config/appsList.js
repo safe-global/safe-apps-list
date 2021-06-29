@@ -34,7 +34,7 @@ const safeAppsConfig = [
     url: `https://app.aave.com/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
-  //Balancer Exchange
+  // Balancer Exchange
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1`,
     networks: [ETHEREUM_NETWORK.MAINNET],
@@ -43,12 +43,6 @@ const safeAppsConfig = [
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf`,
     networks: [ETHEREUM_NETWORK.MAINNET],
-  },
-  // CMM
-  // Point to a static server to allow app update without Safe deployment
-  {
-    url: `https://safe-cmm.gnosis.io`,
-    networks: [ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
   },
   // Compound
   {
@@ -70,20 +64,26 @@ const safeAppsConfig = [
     url: `https://app.dhedge.org/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
-  // Furucombo
-  {
-    url: `https://furucombo.app/`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
-  },
   // ENS
   {
     url: `https://app.ens.domains/`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // Furucombo
+  {
+    url: `https://furucombo.app/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // Gnosis Auction Starter
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
+  },
+  // Gnosis CMM
+  // Point to a static server to allow app update without Safe deployment
+  {
+    url: `https://safe-cmm.gnosis.io`,
+    networks: [ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
   },
   // Idle
   {
@@ -97,7 +97,7 @@ const safeAppsConfig = [
   },
   // Liquity
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmR1WEaYTifMVrzxiHStdXKsRazTBKNXZ91L2ucgQrQV4w`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmWZDNujzAHeALnzAvmT975TejAmwWmYTpVqgZrexBAVrt`,
     disabled: false,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
@@ -150,6 +150,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // OmniBridge
+  {
+    url: `https://bridge.xdaichain.com/`,
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.XDAI],
+  },
   // OpenZeppelin
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmQovvfYYMUXjZfNbysQDUEXR8nr55iJRwcYgJQGJR7KEA`,
@@ -183,16 +188,12 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.XDAI,
     ],
   },
-  // OmniBridge
-  {
-    url: `https://bridge.xdaichain.com/`,
-    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.XDAI],
-  },
   // Yearn Vaults
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/Qme9HuPPhgCtgfj1CktvaDKhTesMueGCV2Kui1Sqna3Xs9`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Zerion
   {
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
