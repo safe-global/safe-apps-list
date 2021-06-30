@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-29T19:24:39.709Z",
+  "timestamp": "2021-06-30T07:51:48.782Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -381,10 +381,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5\",\"name\":\"T\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTJMCBZHX56z36aTUaL2QZ3rKTkzaq1CG3zhPSKb1Su3a\",\"name\":\"T\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmTJMCBZHX56z36aTUaL2QZ3rKTkzaq1CG3zhPSKb1Su3a",
       "name": "Transaction Builder",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmdPPXcAGWjt1C6pEdDXYGRjaKb7qFWEA7Nhz9sDZSEqz5/tx-builder.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmTJMCBZHX56z36aTUaL2QZ3rKTkzaq1CG3zhPSKb1Su3a/tx-builder.png",
       "description": "A Safe app to compose custom transactions",
       "iconPath": "tx-builder.png",
       "networks": [
