@@ -15,6 +15,16 @@ const ETHEREUM_NETWORK = {
 }
 
 const safeAppsConfig = [
+  // DODO
+  {
+    url: `https://app.dodoex.io/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.RINKEBY,
+    ],
+  },
   // 1inch
   {
     url: `https://app.1inch.io/`,
