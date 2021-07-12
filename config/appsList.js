@@ -155,6 +155,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmXLxxczMH4MBEYDeeN9zoiHDzVkeBmB5rBjA3UniPEFcA`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
+  // Oasis
+  {
+    url: `https://oasis.app`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
   // OmniBridge
   {
     url: `https://bridge.xdaichain.com/`,
