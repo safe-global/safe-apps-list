@@ -101,6 +101,19 @@
       ]
     },
     {
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmdFyTuzHnzj6Z1pRRLqjWXEbH56TBNKo3M1an21zKWCXt\",\"name\":\"C\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmdFyTuzHnzj6Z1pRRLqjWXEbH56TBNKo3M1an21zKWCXt",
+      "name": "CSV Airdrop",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmdFyTuzHnzj6Z1pRRLqjWXEbH56TBNKo3M1an21zKWCXt/logo.svg",
+      "description": "Upload your CSV transfer file to send arbitrarily many tokens of various amounts to a list of recipients.",
+      "iconPath": "logo.svg",
+      "networks": [
+        1,
+        4,
+        100
+      ]
+    },
+    {
       "id": "{\"url\":\"https://curve.fi\",\"name\":\"Curve\"}",
       "url": "https://curve.fi",
       "name": "Curve",
