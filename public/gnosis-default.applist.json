@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-06-30T07:51:48.782Z",
+  "timestamp": "2021-07-12T11:06:00.998Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -354,6 +354,17 @@
       "networks": [
         1,
         4
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://oasis.app\",\"name\":\"Oasis Borrow\"}",
+      "url": "https://oasis.app",
+      "name": "Oasis Borrow",
+      "iconUrl": "https://oasis.app/static/img/logo.svg",
+      "description": "Generate Dai on Oasis using crypto as your collateral",
+      "iconPath": "static/img/logo.svg",
+      "networks": [
+        1
       ]
     },
     {
