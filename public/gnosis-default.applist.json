@@ -331,10 +331,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmXU37CwCx4cJRnv1ArurzmiJDqwCGeKS9sTC6zR1BZkws\",\"name\":\"S\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmXU37CwCx4cJRnv1ArurzmiJDqwCGeKS9sTC6zR1BZkws",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmTKQnkthWw6mpzMXpniAepzFbVLuxByzcGGe5CDYqTuH3\",\"name\":\"S\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmTKQnkthWw6mpzMXpniAepzFbVLuxByzcGGe5CDYqTuH3",
       "name": "Sablier",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmXU37CwCx4cJRnv1ArurzmiJDqwCGeKS9sTC6zR1BZkws/logo.svg",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmTKQnkthWw6mpzMXpniAepzFbVLuxByzcGGe5CDYqTuH3/logo.svg",
       "description": "Safe App for interacting with the Sablier protocol",
       "iconPath": "logo.svg",
       "providedBy": {
