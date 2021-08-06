@@ -52,7 +52,13 @@ const safeAppsConfig = [
   // CSV Airdrop
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmdFyTuzHnzj6Z1pRRLqjWXEbH56TBNKo3M1an21zKWCXt`,
-    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
+    networks: [
+      ETHEREUM_NETWORK.MAINNET, 
+      ETHEREUM_NETWORK.RINKEBY, 
+      ETHEREUM_NETWORK.XDAI, 
+      ETHEREUM_NETWORK.BSC, 
+      ETHEREUM_NETWORK.POLYGON,
+    ],
   },
   // Curve
   {
