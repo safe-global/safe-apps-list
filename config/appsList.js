@@ -208,6 +208,11 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Qi Dao
+  {
+    url: `https://app.mai.finance`,
+    networks: [ETHEREUM_NETWORK.POLYGON],
+  },
 ]
 
 module.exports = safeAppsConfig
