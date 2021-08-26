@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-07-13T18:04:12.109Z",
+  "timestamp": "2021-08-26T04:20:17.525Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -200,6 +200,18 @@
       "networks": [
         4,
         100
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp\",\"name\":\"M\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp",
+      "name": "Module Manager",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp/gnosis-safe-logo.png",
+      "description": "Deploy and manage modules for your Gnosis Safe",
+      "iconPath": "gnosis-safe-logo.png",
+      "networks": [
+        1,
+        4
       ]
     },
     {
