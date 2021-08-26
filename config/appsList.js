@@ -90,6 +90,11 @@ const safeAppsConfig = [
     url: `https://safe-cmm.gnosis.io`,
     networks: [ETHEREUM_NETWORK.RINKEBY, ETHEREUM_NETWORK.XDAI],
   },
+  // Gnosis Module Manager
+  {
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp`,
+    networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
+  },
   // Idle
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmTvrLwJtyjG8QFHgvqdPhcV5DBMQ7oZceSU4uvPw9vQaj`,
