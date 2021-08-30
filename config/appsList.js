@@ -92,7 +92,7 @@ const safeAppsConfig = [
   },
   // Gnosis Module Manager
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp`,
+    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmR3JVmvc2YV8JohDZ4qbWmLBa1DjnXB4KNiLtyeG6ZATC`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY],
   },
   // Idle

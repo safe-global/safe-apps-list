@@ -203,10 +203,10 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp\",\"name\":\"M\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp",
+      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmR3JVmvc2YV8JohDZ4qbWmLBa1DjnXB4KNiLtyeG6ZATC\",\"name\":\"M\"}",
+      "url": "https://cloudflare-ipfs.com/ipfs/QmR3JVmvc2YV8JohDZ4qbWmLBa1DjnXB4KNiLtyeG6ZATC",
       "name": "Module Manager",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmRsUc8ypmyrf68dxtwMLk7FPZYErrKstjXVTVWQFhdUBp/gnosis-safe-logo.png",
+      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmR3JVmvc2YV8JohDZ4qbWmLBa1DjnXB4KNiLtyeG6ZATC/gnosis-safe-logo.png",
       "description": "Deploy and manage modules for your Gnosis Safe",
       "iconPath": "gnosis-safe-logo.png",
       "networks": [
