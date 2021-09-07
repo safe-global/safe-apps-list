@@ -208,6 +208,15 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Plasma Finance
+  {
+    url: `https://apy.plasma.finance`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.BSC,
+    ],
+  }
 ]
 
 module.exports = safeAppsConfig
