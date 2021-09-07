@@ -463,6 +463,23 @@
       "networks": [
         1
       ]
+    },
+    {
+      "id": "{\"url\":\"https://apy.plasma.finance/\",\"name\":\"Plasma Finance\"}",
+      "url": "https://apy.plasma.finance/#/",
+      "name": "0xPlasma Finance",
+      "iconUrl": "https://apy.plasma.finance/logo.svg",
+      "description": "Cross-chain DeFi & DEX aggregator, farming, asset management, fiat on-ramp",
+      "iconPath": "/logo.svg",
+      "providedBy": {
+        "name": "0xPlasma",
+        "url": "https://plasma.finance"
+      },
+      "networks": [
+        1,
+        56,
+        137
+      ]
     }
   ]
 }
