@@ -44,6 +44,11 @@ const safeAppsConfig = [
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Bulla Banker
+  {
+    url: "https://banker.bulla.network/",
+    networks: [ETHEREUM_NETWORK.POLYGON, ETHEREUM_NETWORK.XDAI, ETHEREUM_NETWORK.RINKEBY]
+  },
   // Compound
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmX31xCdhFDmJzoVG33Y6kJtJ5Ujw8r5EJJBrsp8Fbjm7k`,
