@@ -4,8 +4,19 @@ about: Create a request to add, remove or update a Safe app
 ---
 
 <!--
-BEFORE SUBMITTING: Please search to make sure this request has not been opened already
+BEFORE SUBMITTING:
+    1. Please search to make sure this request has not been opened already
+    2. Please make sure that you followed the instructions at https://docs.gnosis-safe.io/build/sdks/safe-apps/releasing-your-safe-app
 -->
+
+### Revision checks
+<!--
+Please tell us if you did at least this checks
+-->
+ - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.gnosis-safe.io/build/sdks/safe-apps/releasing-your-safe-app)
+ - [ ] The app auto-connects to the Safe
+ - [ ] You are able to trigger and execute one transaction with a Safe
+ - [ ] RPC requests are optimized (not triggering many requests in a very short time period)
 
 ### Name/Description
 <!--
@@ -14,7 +25,7 @@ This field is optional, although we expect that the name is filled here or at is
 
 ### Type
 <!--
-delete those who doesn't apply
+delete those which doesn't apply
 -->
    - New addition
    - Update
