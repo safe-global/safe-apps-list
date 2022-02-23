@@ -14,6 +14,7 @@ BEFORE SUBMITTING:
 Please tell us if you did at least this checks
 -->
  - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.gnosis-safe.io/build/sdks/safe-apps/releasing-your-safe-app)
+ - [ ] The app can be loaded as a custom Safe App in the Apps section
  - [ ] The app auto-connects to the Safe
  - [ ] You are able to trigger and execute one transaction with a Safe
  - [ ] RPC requests are optimized (not triggering many requests in a very short time period)
