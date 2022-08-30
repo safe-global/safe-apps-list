@@ -8,6 +8,7 @@ const ETHEREUM_NETWORK = {
   BSC: 56,
   XDAI: 100,
   POLYGON: 137,
+  ARBITRUM: 42161,
   ENERGY_WEB_CHAIN: 246,
   VOLTA: 73799,
   UNKNOWN: 0,
@@ -34,15 +35,14 @@ const safeAppsConfig = [
     url: `https://app.aave.com/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
-  // Balancer Exchange
+  // Balancer
   {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
-  },
-  // Balancer Pool
-  {
-    url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf`,
-    networks: [ETHEREUM_NETWORK.MAINNET],
+    url: `https://app.balancer.fi/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.ARBITRUM
+    ],
   },
   // Compound
   {

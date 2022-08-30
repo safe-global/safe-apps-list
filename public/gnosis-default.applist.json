@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-07-13T18:04:12.109Z",
+  "timestamp": "2021-08-30T18:04:12.109Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -59,33 +59,20 @@
       ]
     },
     {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1\",\"name\":\"B\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1",
-      "name": "Balancer Exchange",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1/logo512.png",
-      "description": "Exchange tokens using the Balancer DEX",
-      "iconPath": "logo512.png",
+      "id": "{\"url\":\"https://app.balancer.fi/\",\"name\":\"Balancer\"}",
+      "url": "https://app.balancer.fi/",
+      "name": "Balancer",
+      "iconUrl": "https://app.balancer.fi/images/logos/logo512.png",
+      "description": "Automated portfolio manager and trading platform",
+      "iconPath": "images/logos/logo512.png",
       "providedBy": {
         "name": "Balancer Labs",
         "url": "https://balancer.finance"
       },
       "networks": [
-        1
-      ]
-    },
-    {
-      "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf\",\"name\":\"B\"}",
-      "url": "https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf",
-      "name": "Balancer Pool Management",
-      "iconUrl": "https://cloudflare-ipfs.com/ipfs/QmVaxypk2FTyfcTS9oZKxmpQziPUTu2VRhhW7sso1mGysf/logo512.png",
-      "description": "Manage liquidity on Balancer from your Gnosis Safe",
-      "iconPath": "logo512.png",
-      "providedBy": {
-        "name": "Balancer Labs",
-        "url": "https://balancer.finance"
-      },
-      "networks": [
-        1
+        1,
+        137,
+        42161
       ]
     },
     {
