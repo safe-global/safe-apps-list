@@ -79,6 +79,19 @@ const safeAppsConfig = [
     url: `https://furucombo.app/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Flair
+  {
+    url: `https://app.flair.finance/`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.POLYGON,
+      ETHEREUM_NETWORK.RINKEBY,
+      ETHEREUM_NETWORK.ROPSTEN,
+      ETHEREUM_NETWORK.GOERLI,
+      ETHEREUM_NETWORK.XDAI,
+    ],
+  },
   // Gnosis Auction Starter
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmdCwUutYH8GXXNgTShB4cKJ8YJq4PqZ55QxMznKc9DbeS`,
