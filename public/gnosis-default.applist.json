@@ -70,9 +70,7 @@
         "url": "https://balancer.finance"
       },
       "networks": [
-        1,
-        137,
-        42161
+        1
       ]
     },
     {

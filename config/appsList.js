@@ -8,7 +8,6 @@ const ETHEREUM_NETWORK = {
   BSC: 56,
   XDAI: 100,
   POLYGON: 137,
-  ARBITRUM: 42161,
   ENERGY_WEB_CHAIN: 246,
   VOLTA: 73799,
   UNKNOWN: 0,
@@ -39,9 +38,7 @@ const safeAppsConfig = [
   {
     url: `https://app.balancer.fi/`,
     networks: [
-      ETHEREUM_NETWORK.MAINNET,
-      ETHEREUM_NETWORK.POLYGON,
-      ETHEREUM_NETWORK.ARBITRUM
+      ETHEREUM_NETWORK.MAINNET
     ],
   },
   // Compound
