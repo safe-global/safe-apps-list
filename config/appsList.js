@@ -208,6 +208,11 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Metavault.Trade
+  {
+     url: `https://app.metavault.trade`,
+     networks: [ETHEREUM_NETWORK.POLYGON],
+  },
 ]
 
 module.exports = safeAppsConfig

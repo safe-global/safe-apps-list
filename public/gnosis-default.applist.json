@@ -463,6 +463,21 @@
       "networks": [
         1
       ]
+    },
+    {
+      "id": "{\"url\":\"https://app.metavault.trade\",\"name\":\"Metavault.Trade\"}",
+      "url": "https://app.metavault.trade",
+      "name": "Metavault.Trade",
+      "iconUrl": "https://res.cloudinary.com/metavault/image/upload/v1660302354/MVX_Coin1200_nmy94s.png",
+      "description": "Exchange tokens using the Metavault.Trade",
+      "iconPath": "MVX_Coin1200_nmy94s.png",
+      "providedBy": {
+        "name": "Metavault.Trade",
+        "url": "https://metavault.trade"
+      },
+      "networks": [
+        137
+      ]
     }
   ]
 }
