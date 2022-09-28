@@ -208,6 +208,16 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // 0xVia
+  {
+    url: `https://0xvia.com`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.BSC,
+      ETHEREUM_NETWORK.XDAI,
+      ETHEREUM_NETWORK.POLYGON
+    ],
+  },
 ]
 
 module.exports = safeAppsConfig

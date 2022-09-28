@@ -463,6 +463,24 @@
       "networks": [
         1
       ]
+    },
+    {
+      "id": "{\"url\":\"https://0xvia.com\",\"name\":\"0xVia\"}",
+      "url": "https://0xvia.com",
+      "name": "0xVia",
+      "iconUrl": "https://0xvia.com/logo192.png",
+      "description": "The most efficient cross-chain router",
+      "iconPath": "/logo192.png",
+      "providedBy": {
+        "name": "0xVia",
+        "url": "https://via.exchange"
+      },
+      "networks": [
+        1,
+        56,
+        100,
+        137
+      ]
     }
   ]
 }
