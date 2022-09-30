@@ -34,6 +34,14 @@ const safeAppsConfig = [
     url: `https://app.aave.com/`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Alluo
+  {
+    url: `https://app.alluo.finance`,
+    networks: [
+      ETHEREUM_NETWORK.MAINNET,
+      ETHEREUM_NETWORK.POLYGON
+    ],
+  },
   // Balancer Exchange
   {
     url: `${process.env.REACT_APP_IPFS_GATEWAY}/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1`,
@@ -207,7 +215,7 @@ const safeAppsConfig = [
   {
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
-  },
+  }
 ]
 
 module.exports = safeAppsConfig

@@ -59,6 +59,18 @@
       ]
     },
     {
+      "id": "{\"url\":\"https://app.alluo.finance/\",\"name\":\"Alluo\"}",
+      "url": "https://app.alluo.finance/",
+      "name": "Alluo",
+      "iconUrl": "https://app.alluo.finance/logo.svg",
+      "description": "Non-custodial streamable yield aggregation and liquidity direction protocol",
+      "iconPath": "logo.svg",
+      "networks": [
+        1,
+        137
+      ]
+    },
+    {
       "id": "{\"url\":\"https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1\",\"name\":\"B\"}",
       "url": "https://cloudflare-ipfs.com/ipfs/QmREcCtsynyrfa4H5bJUJH6sVV1QKygt8M9NNB6dH4Rcm1",
       "name": "Balancer Exchange",
