@@ -6,7 +6,8 @@ about: Create a request to add, remove or update a Safe app
 <!--
 BEFORE SUBMITTING:
     1. Please search to make sure this request has not been opened already
-    2. Please make sure that you followed the instructions at https://docs.gnosis-safe.io/build/sdks/safe-apps/releasing-your-safe-app
+    2. Please make sure that you followed the instructions at https://docs.gnosis-safe.io/learn/safe-tools/sdks/safe-apps/releasing-your-safe-app
+    3. Your app is available on production chains and is production ready.
 -->
 
 ### Revision checks
@@ -14,7 +15,7 @@ BEFORE SUBMITTING:
 Please tell us if you did at least this checks
 -->
  - [ ] Used smart contracts were audited.
- - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.gnosis-safe.io/build/sdks/safe-apps/releasing-your-safe-app).
+ - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.gnosis-safe.io/learn/safe-tools/sdks/safe-apps/releasing-your-safe-app).
  - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
  - [ ] The app auto-connects to the Safe.
  - [ ] You are able to trigger and execute one transaction with a Safe.
@@ -59,9 +60,17 @@ Link to git repository where the app is published.
 If the app is already published you can provide an IPFS hash or URL.
 -->
 
-### Desired date
+### Team information
 <!--
-You can explain here if there is a desired date/blocker that should be considered to add the app before or after.
-This shouldn't be used as a deadline to request the app to be added, but just some feedback for time relevant events
-(eg. app shouldn't be public until some days later, a coordinated anouncement should be set together with the app launch, resources not ready until a specific date...)
+Some general team info. Not all fields are mandatory, but they will improve the user experience.
+    - Project logo: should be an IMG or a link to an IMG that we can use.
+    - Project landing page: the team main page. Usually it is the root domain.
+    - Team or discord contact: a place where users can message you in case they find issues.
+    - Twitter link
+    - Github link
 -->
+    - Project logo:
+    - Project landing page:
+    - Team or discord contact:
+    - Twitter link:
+    - Github link:
