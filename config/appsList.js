@@ -4,6 +4,7 @@ const ETHEREUM_NETWORK = {
   ROPSTEN: 3,
   RINKEBY: 4,
   GOERLI: 5,
+  OPTIMISM: 10,
   KOVAN: 42,
   BSC: 56,
   XDAI: 100,
@@ -186,6 +187,11 @@ const safeAppsConfig = [
       ETHEREUM_NETWORK.VOLTA,
       ETHEREUM_NETWORK.XDAI,
     ],
+  },
+  // Velodrome
+  {
+    url: `https://velodrome.finance`,
+    networks: [ETHEREUM_NETWORK.OPTIMISM],
   },
   // Wallet-Connect
   {
