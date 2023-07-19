@@ -463,6 +463,21 @@
       "networks": [
         1
       ]
+    },
+    {
+      "id": "{\"url\":\"https://app.solid.world\",\"name\":\"Solid World\"}",
+      "url": "https://app.solid.world",
+      "name": "Solid World",
+      "iconUrl": "https://app.solid.world/favicon.png",
+      "description": "Democratized Climate Finance",
+      "iconPath": "favicon.png",
+      "providedBy": {
+        "name": "Solid World",
+        "url": "https://solid.world"
+      },
+      "networks": [
+        137
+      ]
     }
   ]
 }

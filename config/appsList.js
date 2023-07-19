@@ -208,6 +208,11 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Solid World
+  {
+    url: `https://app.solid.world`,
+    networks: [ETHEREUM_NETWORK.POLYGON],
+  }
 ]
 
 module.exports = safeAppsConfig
