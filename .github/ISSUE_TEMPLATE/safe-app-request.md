@@ -6,7 +6,7 @@ about: Create a request to add, remove or update a Safe app
 <!--
 BEFORE SUBMITTING:
     1. Please search to make sure this request has not been opened already
-    2. Please make sure that you followed the instructions at https://docs.gnosis-safe.io/learn/safe-tools/sdks/safe-apps/releasing-your-safe-app
+    2. Please make sure that you followed the instructions at https://docs.safe.global/safe-core-aa-sdk/safe-apps/release
     3. Your app is available on production chains and is production ready.
 -->
 
@@ -15,7 +15,7 @@ BEFORE SUBMITTING:
 Please tell us if you did at least this checks
 -->
  - [ ] Used smart contracts were audited.
- - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.gnosis-safe.io/learn/safe-tools/sdks/safe-apps/releasing-your-safe-app).
+ - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.safe.global/safe-core-aa-sdk/safe-apps/release).
  - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
  - [ ] The app auto-connects to the Safe.
  - [ ] You are able to trigger and execute one transaction with a Safe.
