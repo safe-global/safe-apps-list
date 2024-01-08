@@ -3,6 +3,13 @@ name: Safe app request
 about: Create a request to add, remove or update a Safe app
 ---
 
+## ‼️ New submission proccess
+Please note that from 🗓️ **01.01.24**, new Safe App submissions will first have to go through a [new pre-assessment form](https://docs.google.com/forms/d/e/1FAIpQLSeN2m94-jvGjvUF9MpZSkwxGPPjNz7QKZj9h9kMVXvnNdp2Mg/viewform?usp=sf_link).
+
+Do not create GitHub issues directly without submitting that from, otherwise they will not be accepted. Thank you!
+
+---
+
 <!--
 BEFORE SUBMITTING:
     1. Please search to make sure this request has not been opened already
