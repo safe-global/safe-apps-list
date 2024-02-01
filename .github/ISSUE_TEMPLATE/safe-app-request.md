@@ -17,31 +17,29 @@ BEFORE SUBMITTING:
     3. Your app is available on production chains and is production ready.
 -->
 
-### Revision checks
+### Entry type
 <!--
-Please tell us if you did at least this checks
--->
- - [ ] Used smart contracts were audited.
- - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.safe.global/safe-core-aa-sdk/safe-apps/release).
- - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
- - [ ] The app auto-connects to the Safe.
- - [ ] You are able to trigger and execute one transaction with a Safe.
- - [ ] RPC requests are optimized (not triggering many requests in a very short time period).
-
-### Name/Description
-<!--
-This field is optional, although we expect that the name is filled here or at issue title field.
--->
-
-### Type
-<!--
-delete those which doesn't apply
+delete those that don't apply
 -->
    - New addition
    - Update
    - Removal
 
-### Compatible Networks
+### App info
+Name:
+
+Description:
+
+URL:
+
+Icon:
+
+Homepage:
+Twitter:
+GitHub:
+Discord
+
+### Supported networks
 <!--
 This field is optional, except when adding a new app. An app can be compatible with one or many networks.
 Just list the ones that are compatible.
@@ -51,6 +49,17 @@ Just list the ones that are compatible.
     - Gnosis Chain
     - Energy Web Chain
     - Volta
+
+### Revision checks
+<!--
+Please tell us if you did any of these checks
+-->
+ - [ ] Used smart contracts were audited.
+ - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://docs.safe.global/safe-core-aa-sdk/safe-apps/release).
+ - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
+ - [ ] The app auto-connects to the Safe.
+ - [ ] You are able to trigger and execute one transaction with a Safe.
+ - [ ] RPC requests are optimized (not triggering many requests in a very short time period).
 
 ### Audit document
 <!--
@@ -62,22 +71,12 @@ Link to smart contracts audit.
 Link to git repository where the app is published.
 -->
 
-### IPFS hash/App URL
-<!--
-If the app is already published you can provide an IPFS hash or URL.
--->
-
 ### Team information
-<!--
-Some general team info. Not all fields are mandatory, but they will improve the user experience.
-    - Project logo: should be an IMG or a link to an IMG that we can use.
-    - Project landing page: the team main page. Usually it is the root domain.
-    - Team or discord contact: a place where users can message you in case they find issues.
-    - Twitter link
-    - Github link
--->
-    - Project logo:
-    - Project landing page:
-    - Team or discord contact:
-    - Twitter link:
-    - Github link:
+
+Company:
+
+Official website:
+
+Point of contact:
+
+Email/Telegram:
