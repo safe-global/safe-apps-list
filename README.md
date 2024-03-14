@@ -1,40 +1,78 @@
-## ‼️ New submission proccess
-Please note that from 🗓️ **01.01.24**, new Safe App submissions will first have to go through a [new pre-assessment form](https://docs.google.com/forms/d/e/1FAIpQLSeN2m94-jvGjvUF9MpZSkwxGPPjNz7QKZj9h9kMVXvnNdp2Mg/viewform?usp=sf_link).
+# ‼️ New submission proccess
+Please note that from 🗓️ **01.01.24**, new Safe App submissions will first have to go through a [new pre-assessment form](https://forms.gle/PcDcaVx715LKrrQs8).
 
 Do not create GitHub issues directly without submitting that from, otherwise they will not be accepted. Thank you!
 
 ---
 
-# Gnosis Safe default apps list
+# Releasing your Safe App
 
-This is a small project to generate and build the default apps list for Gnosis Safe
+Here are some details about the release process for Safe Apps.
 
-## Getting started
+## Get your Safe Apps into the hands of users
 
-These instructions will get you to get a valid apps list to load in Gnosis Safe
+Once you finish developing and testing your Safe App, your users can test it by opening the link to the hosted Safe App and adding it as a Custom App. [This guide](https://help.safe.global/en/articles/40859-add-a-custom-safe-app) explains how to add custom apps.
 
-### Installing and running
+## Get your Safe App listed in Safe\{Wallet\}
 
-Install dependencies for the project:
-```
-yarn install
-```
+Please, remember that when listing your Safe App for the first time you need to fill the [pre-assessment form](https://forms.gle/PcDcaVx715LKrrQs8) before continuing the process.
 
-To launch a local instance for dev purposes:
-```
-yarn start
-```
+Once you get response from the team, you need to make sure your app meets the following criteria:
 
-### Building
+### Smart contracts must be audited
 
-Generate an instance of the list:
-```
-yarn build
-```
+Security is the top priority for Safe. Please provide an external audit result document if the Safe App includes smart contracts. If a third party created the smart contracts, ensure they are audited.
 
-### Configuring
+### Your Safe App must include a manifest
 
-To update the list configuration you have to modify the file at `config/appList.js`. To configure an app two parameters are mandatory:
+There must be a `manifest.json` at the root directory containing the following data:
 
- - `url`: An URL to fetch the resource. If it's using an IPFS link the following pattern should be used: `${process.env.REACT_APP_IPFS_GATEWAY}/QmUXF1yVGdqUfMbhNyfM3jpP6Bw66cYnKPoWq6iHkhd3Aw`
- - `networks`: An array of supported networks. For convenience the enumerated object can be used to set it in a more friendly way. ex: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.RINKEBY]
+`"name": "Name of your Safe App"`
+
+Your Safe App's name needs to have 50 characters maximum.
+
+`"iconPath": "your_logo.svg"`
+
+A relative file path to your App's logo. The icon must be a square SVG image of at least 128 by 128 pixels.
+
+`"description": "This is the Safe app description."`
+
+Few sentences describing your application, a maximum of 200 characters
+
+You can find an example manifest file on [GitHub](https://github.com/safe-global/safe-apps-sdk/blob/main/packages/cra-template-safe-app/template/public/manifest.json). You can also find an example Safe App on IPFS [here](https://ipfs.io/ipfs/QmTgnb1J9FDR9gimptzvaEiNa25s92iQy37GyqYfwZw8Aj/).
+
+Remember that **CORS** needs to be configured correctly on the `manifest.json` so we can fetch the information as [mentioned here](./get-started.md#cors).
+
+### The app auto connects to the Safe
+
+When the user opens the app, it should automatically select the Safe as a wallet. Ensure to check the case if the user previously opened the app outside of the Safe with another wallet.
+
+### The Safe team has reviewed the Safe App
+
+The requirement doesn't apply for battle-tested applications hosted on the same domain as the main dapp.
+
+While we won't be able to do a proper audit for your Safe App, we still would like to look at the source code to raise issues or suggest improvements. Whether your Safe App is open or closed source, please send us either a link to the public repository or an invitation to the private repository.
+
+We also would like to make a rough functional review of the App, so please provide us with a high-level test plan/feature list that allows our QA team to ensure everything works as intended in production. Video walk-throughs are also welcome.
+
+### Help us decode your Safe App transactions
+
+We want to display interactions with Safe Apps as human-readable as possible. To do this, we need the ABI of the contracts your Safe App interacts with. The ideal way to do this would be to verify your contracts via [Sourcify](https://github.com/ethereum/sourcify), which we can leverage to decode transactions interacting with those contracts.
+
+Alternatively, you can provide us with the ABIs as JSON files or the links to the verified contracts on Etherscan so we can implement transaction decoding for your Safe App interactions.
+
+## Official launch and beyond
+
+After we have reviewed and integrated your Safe App, the App will first be available in the [staging environment](https://safe-wallet-web.staging.5afe.dev) of the Safe for you to do a final review. We would then approach you to coordinate the launch and a joint announcement.
+
+At any point after the launch, if you or your users encounter issues with the Safe App or want to release an update to an existing Safe App, please contact us via [Discord](https://chat.safe.global).
+
+While developing your Safe App, you can use [our production interface](https://app.safe.global) to test it. Some testnets like Sepolia are also available.
+
+Once your app is live, even if you run it locally, you can import it to the Safe application as a custom app. To do so, you should select the "Apps" tab:
+
+![side-bar-menu](./assets/side-bar-menu.png)
+
+Use the `Add custom app` button and add your app using a link:
+
+![add-custom-app](./assets/add-custom-app.png)
