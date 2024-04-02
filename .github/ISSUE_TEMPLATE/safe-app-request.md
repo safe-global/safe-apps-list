@@ -32,12 +32,14 @@ Description:
 
 URL:
 
-Icon:
+Icon (PNG, 180x180):
 
 Homepage:
 Twitter:
 GitHub:
-Discord
+Discord:
+
+App supports batching multiple transactions via Safe: yes/no
 
 ### Supported networks
 <!--
@@ -55,7 +57,8 @@ Just list the ones that are compatible.
 Please tell us if you did any of these checks
 -->
  - [ ] Used smart contracts were audited.
- - [ ] Your Safe App include a manifest.json file at the root [with the required data](https://github.com/5afe/safe-apps-list/blob/main/README.md).
+ - [ ] You have implemented the app using the [Safe Apps SDK](https://github.com/safe-global/safe-apps-sdk)
+ - [ ] Your Safe App includes a `manifest.json` file at the root [with the required data](https://github.com/5afe/safe-apps-list/blob/main/README.md).
  - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
  - [ ] The app auto-connects to the Safe.
  - [ ] You are able to trigger and execute one transaction with a Safe.
