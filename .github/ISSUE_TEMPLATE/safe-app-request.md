@@ -29,12 +29,14 @@ delete those that don't apply
 
 URL:
 
+Manifest.json URL:
+
 Name:
 
 Description:
 
 Icon (PNG, 180x180):
-N.B.: please run the image through https://tinypng.com before uploading here!
+It's minified via https://tinypng.com: yes/no
 
 Homepage:
 Twitter:
@@ -60,7 +62,7 @@ Please tell us if you did any of these checks
 -->
  - [ ] Used smart contracts were audited.
  - [ ] You have implemented the app using the [Safe Apps SDK](https://github.com/safe-global/safe-apps-sdk)
- - [ ] Your Safe App includes a `manifest.json` file at the root [with the required data](https://github.com/5afe/safe-apps-list/blob/main/README.md) – please paste the link to manifest.json here – apps without a manifset WILL NOT be accepted.
+ - [ ] Your Safe App includes a `manifest.json` file at the root [with the required data](https://github.com/5afe/safe-apps-list/blob/main/README.md)
  - [ ] The app can be loaded as a custom Safe App in the Apps section of [https://app.safe.global](https://app.safe.global).
  - [ ] The app auto-connects to the Safe as a wallet
  - [ ] It doesn't try to connect to the browser wallet (e.g. MetaMask)
