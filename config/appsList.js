@@ -208,6 +208,11 @@ const safeAppsConfig = [
     url: `https://app.zerion.io`,
     networks: [ETHEREUM_NETWORK.MAINNET],
   },
+  // Zerolend
+  {
+    url: `https://app.zerolend.xyz/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
+  },
 ]
 
 module.exports = safeAppsConfig
