@@ -1,4 +1,4 @@
-# ‼️ New submission proccess
+# ‼️ New submission process
 Please note that from 🗓️ **01.01.24**, new Safe App submissions will first have to go through a [new pre-assessment form](https://forms.gle/PcDcaVx715LKrrQs8).
 
 Do not create GitHub issues directly without submitting that from, otherwise they will not be accepted. Thank you!
