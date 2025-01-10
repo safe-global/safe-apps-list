@@ -1,16 +1,17 @@
-name: Auto Label New Issues
-
+name: Auto Label new Issue
 on:
   issues:
     types:
       - opened
-
 jobs:
-  label:
+  label_issues:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
-      - name: Add Label to New Issues
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: "New"
+      - run: gh issue edit "$NUMBER" --add-label "$LABELS"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.issue.number }}
+          LABELS: New
