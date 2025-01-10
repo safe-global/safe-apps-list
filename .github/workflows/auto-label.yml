@@ -1,0 +1,16 @@
+name: Auto Label New Issues
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add Label to New Issues
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: "New"
