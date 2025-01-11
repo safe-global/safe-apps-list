@@ -68,6 +68,7 @@ Please tell us if you did any of these checks
  - [ ] It doesn't try to connect to the browser wallet (e.g. MetaMask)
  - [ ] You are able to trigger and execute one transaction with a Safe.
  - [ ] RPC requests are optimized (not triggering many requests in a very short time period).
+ - [ ] Access to private repositories, if applicable, is granted to: [@safe-reviewer](https://github.com/safe-reviewer)
 
 ### Audit document
 <!--
