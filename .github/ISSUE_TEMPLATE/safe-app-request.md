@@ -42,6 +42,7 @@ Homepage:
 Twitter:
 GitHub:
 Discord:
+Telegram:
 
 App supports batching multiple transactions via Safe: yes/no
 
