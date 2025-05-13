@@ -56,7 +56,7 @@ const safeAppsConfig = [
   },
   // Curve
   {
-    url: `https://curve.fi`,
+    url: `https://curve.finance/`,
     networks: [ETHEREUM_NETWORK.MAINNET, ETHEREUM_NETWORK.POLYGON],
   },
   // DeFi Saver
