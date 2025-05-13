@@ -117,7 +117,7 @@
       "id": "{\"url\":\"https://curve.finance\",\"name\":\"Curve\"}",
       "url": "https://curve.finance",
       "name": "Curve",
-      "iconUrl": "https://www.curve.finance/logo-square.svg",
+      "iconUrl": "https://curve.finance/logo-square.svg",
       "description": "Decentralized exchange liquidity pool designed for extremely efficient stablecoin trading and low-risk income for liquidity providers",
       "iconPath": "logo-square.svg",
       "networks": [
