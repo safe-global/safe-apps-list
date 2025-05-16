@@ -61,6 +61,22 @@ We want to display interactions with Safe Apps as human-readable as possible. To
 
 Alternatively, you can provide us with the ABIs as JSON files or the links to the verified contracts on Etherscan so we can implement transaction decoding for your Safe App interactions.
 
+### Support tracking parameters
+
+Your Safe App URL should support tracking parameters to help analyze usage, volume and traffic of your Safe App.
+
+At minimum, implement UTM parameters in your URL structure to track Safe as a source:
+`https://your-app.com/?utm_source=SafeWallet`
+
+Real-world example: `https://app.example.io/#/?utm_source=SafeWallet`
+
+For apps that support on-chain transactions, we also recommend implementing custom parameters (like referral codes) that can be tracked on platforms like Dune Analytics:
+`https://your-app.com/?ref=0xSafeAddress`
+
+Example implementation: `https://app.example.io/?ref=0x5afE11DBF44AB2D88162f687e01F8DD7a8A3EEEe`
+
+This tracking helps the Safe ecosystem measure app usage and improve the experience for both users and developers.
+
 ## Official launch and beyond
 
 After we have reviewed and integrated your Safe App, the App will first be available in the [staging environment](https://safe-wallet-web.staging.5afe.dev) of the Safe for you to do a final review. We would then approach you to coordinate the launch and a joint announcement.

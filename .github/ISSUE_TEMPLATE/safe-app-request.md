@@ -46,6 +46,10 @@ Telegram:
 
 App supports batching multiple transactions via Safe: yes/no
 
+Tracking parameters implementation:
+- UTM parameters (e.g., https://your-app.com/?utm_source=SafeWallet): yes/no
+- Onchain tracking parameters (e.g., https://your-app.com/?ref=0xSafeAddress): yes/no
+
 ### Supported networks
 <!--
 This field is optional, except when adding a new app. An app can be compatible with one or many networks.
@@ -69,6 +73,7 @@ Please tell us if you did any of these checks
  - [ ] It doesn't try to connect to the browser wallet (e.g. MetaMask)
  - [ ] You are able to trigger and execute one transaction with a Safe.
  - [ ] RPC requests are optimized (not triggering many requests in a very short time period).
+ - [ ] Your app supports tracking parameters as described in the [README](https://github.com/5afe/safe-apps-list/blob/main/README.md#support-tracking-parameters) (UTM parameters and/or onchain tracking).
  - [ ] Access to private repositories, if applicable, is granted to: [@safe-reviewer](https://github.com/safe-reviewer)
 
 ### Audit document
