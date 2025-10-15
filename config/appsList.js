@@ -15,14 +15,19 @@ const ETHEREUM_NETWORK = {
 }
 
 const safeAppsConfig = [
-  // 1inch
+  // 1inch.com
   {
-    url: `https://app.1inch.io/`,
+    url: `https://1inch.com/`,
     networks: [
       ETHEREUM_NETWORK.MAINNET,
       ETHEREUM_NETWORK.BSC,
       ETHEREUM_NETWORK.POLYGON,
     ],
+  },
+  // 1inch.network
+  {
+    url: `https://1inch.network/`,
+    networks: [ETHEREUM_NETWORK.MAINNET],
   },
   // Aave
   {

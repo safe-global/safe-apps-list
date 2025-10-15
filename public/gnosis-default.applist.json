@@ -1,6 +1,6 @@
 {
   "name": "Gnosis Safe default apps list",
-  "timestamp": "2021-07-13T18:04:12.109Z",
+  "timestamp": "2025-10-15T14:47:05.678Z",
   "version": {
     "major": 0,
     "minor": 1,
@@ -16,20 +16,35 @@
   ],
   "apps": [
     {
-      "id": "{\"url\":\"https://app.1inch.io/\",\"name\":\"1inch Network\"}",
-      "url": "https://app.1inch.io/",
-      "name": "1inch Network",
-      "iconUrl": "https://app.1inch.io/assets/images/1inch-token.svg",
-      "description": "The most efficient defi aggregator",
-      "iconPath": "assets/images/1inch-token.svg",
+      "id": "{\"url\":\"https://1inch.com/\",\"name\":\"1inch.com\"}",
+      "url": "https://1inch.com/",
+      "name": "1inch.com",
+      "iconUrl": "https://1inch.com/assets/images/logo_small.svg",
+      "description": "The swap aggregator with the best rates",
+      "iconPath": "assets/images/logo_small.svg",
       "providedBy": {
-        "name": "1inch network",
-        "url": "https://1inch.io"
+        "name": "1inch.com",
+        "url": "https://1inch.com"
       },
       "networks": [
         1,
         56,
         137
+      ]
+    },
+    {
+      "id": "{\"url\":\"https://1inch.network/\",\"name\":\"1inch.network\"}",
+      "url": "https://1inch.network/",
+      "name": "1inch.network",
+      "iconUrl": "https://1inch.network/assets/images/logo_small.svg",
+      "description": "Stake 1INCH to delegate and vote",
+      "iconPath": "assets/images/logo_small.svg",
+      "providedBy": {
+        "name": "1inch.network",
+        "url": "https://1inch.network"
+      },
+      "networks": [
+        1
       ]
     },
     {
