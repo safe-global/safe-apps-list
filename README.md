@@ -1,7 +1,10 @@
-# ‼️ New submission proccess
-Please note that from 🗓️ **01.01.24**, new Safe App submissions will first have to go through a [new pre-assessment form](https://forms.gle/PcDcaVx715LKrrQs8).
+# ⏸️ New listings are temporarily paused
 
-Do not create GitHub issues directly without submitting that from, otherwise they will not be accepted. Thank you!
+We've paused new Safe App listings for now while we rework the submission process.
+
+That means the pre-assessment form and new GitHub issues for listings aren't being reviewed. Hold off on submitting until we re-open — we'll update this README as soon as we do.
+
+If your app is already listed, nothing changes.
 
 ---
 
