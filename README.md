@@ -14,7 +14,7 @@ Here are some details about the release process for Safe Apps.
 
 ## Get your Safe Apps into the hands of users
 
-Once you finish developing and testing your Safe App, your users can test it by opening the link to the hosted Safe App and adding it as a Custom App. [This guide](https://help.safe.global/en/articles/40859-add-a-custom-safe-app) explains how to add custom apps.
+Once you finish developing and testing your Safe App, your users can test it by opening the link to the hosted Safe App and adding it as a Custom App. [This guide](https://help.safe.global/articles/1436723729-add-a-custom-safe-app?lang=en) explains how to add custom apps.
 
 ## Get your Safe App listed in Safe\{Wallet\}
 
@@ -84,7 +84,7 @@ This tracking helps the Safe ecosystem measure app usage and improve the experie
 
 After we have reviewed and integrated your Safe App, the App will first be available in the [staging environment](https://safe-wallet-web.staging.5afe.dev) of the Safe for you to do a final review. We would then approach you to coordinate the launch and a joint announcement.
 
-At any point after the launch, if you or your users encounter issues with the Safe App or want to release an update to an existing Safe App, please contact us via [Discord](https://chat.safe.global).
+At any point after the launch, if you or your users encounter issues with the Safe App or want to release an update to an existing Safe App, please contact us via [support@safe.global](mailto:support@safe.global).
 
 While developing your Safe App, you can use [our production interface](https://app.safe.global) to test it. Some testnets like Sepolia are also available.
 
