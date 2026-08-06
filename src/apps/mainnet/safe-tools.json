@@ -1,0 +1,18 @@
+{
+  "name": "Safe Tools",
+  "description": "Sign and verify messages using your Gnosis Safe. Enables EIP-1271 authentication and onchain message storage via SignMessageLib.",
+  "iconPath": "https://safetools.io/logo.svg",
+  "safeVersion": "1.3.0",
+  "appUrl": "https://safetools.io",
+  "chainIds": [
+    1,
+    11155111,
+    5,
+    137,
+    10,
+    42161,
+    100,
+    8453,
+    324
+  ]
+} 
